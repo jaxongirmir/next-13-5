@@ -1,0 +1,30 @@
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.car {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 20px 0;
+  background-color: #eee;
+  color: #333;
+}
+.car img {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 350px;
+  height: 200px;
+}
+.car h2 {
+  font-size: 22px;
+}
