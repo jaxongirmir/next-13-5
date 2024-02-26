@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
-import Header from '@/components/header/Header'
 
 export const metadata: Metadata = {
-  title: 'joxa',
+  title: 'Home | next vs react',
   description: 'hello my name is Jaxongir',
 }
 

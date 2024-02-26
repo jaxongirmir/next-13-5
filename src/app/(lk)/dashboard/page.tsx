@@ -1,3 +1,10 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Dashboard | next vs react',
+  description: 'hello my name is Jaxongir',
+}
+
 const fetchData = async () => {
   try {
     const response = await fetch(
